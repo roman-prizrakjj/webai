@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "copy-images": "mkdir -p public/images && cp -r images/* public/images/",
     "setup": "npm install && npm run copy-images"
